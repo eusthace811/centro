@@ -1,0 +1,36 @@
+{
+  "name": "centro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ethers": "^2.1.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.47.2",
+    "react-native-crypto": "^2.1.1",
+    "react-native-gifted-chat": "^0.2.7",
+    "react-native-randombytes": "^3.0.0",
+    "react-native-vector-icons": "^4.4.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^0.16.0",
+    "rxjs": "^5.4.3",
+    "web3": "0.20.0"
+  },
+  "devDependencies": {
+    "babel-jest": "21.2.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "21.2.1",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "rn-nodeify": "github:mvayngrib/rn-nodeify"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
